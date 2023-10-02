@@ -1,0 +1,118 @@
+
+/* <---------- Header css style ---------->  */
+
+header{
+    position:sticky;
+    top:0px;
+    background-color: white;
+}
+.vertical-line{
+    border-left: 1px solid #f2f2f2;
+    height:50px;
+}
+.nav-items>h4{
+    font-weight:500px;
+    margin-top:10px;
+}
+.nav-items>p{
+    font-size:14px;
+}
+.nav-search{
+    background-color: #f8f8f8;
+    border:1px solid #f2f2f2;
+    border-radius:10px;
+    padding-inline:10px;
+}
+.nav-search>input{
+    border:none;
+    width:40vw;
+    height:50px;
+    background-color: transparent;
+}
+.button{
+    background-color: green !important;
+    border-radius:10px !important;
+    color:white !important;
+    font-weight: 600px !important;
+}
+
+/*  <------  Main Section Styling  -------> */
+
+.container-section{
+    width:83vw;
+    margin:auto;
+    padding-left:0px;
+}
+.list{
+    white-space:nowrap;
+    overflow-x: scroll;
+}
+.list::-webkit-scrollbar{
+    display:none;
+}
+.list>img{
+    display: inline-block;
+    margin:10px;
+    width:320px;
+    height:200px;
+}
+
+
+
+.hero-section{
+    display:flex;
+    width:245px;
+    height:240px;
+    padding-inline:100px;
+}
+
+
+.product-section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    padding-inline:6.5vw;
+}
+.product-section>img{
+    width:130px;
+    height:190px;
+}
+
+.cards-section{
+    width:85vw;
+    margin:auto;
+    margin-bottom: 20px;
+}
+.items{
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.items::-webkit-scrollbar{
+    display:none;
+}
+
+.my-card{
+    display:inline-block !important;
+    width:170px;
+    box-sizing:border-box;
+    border-radius:15px !important;
+    white-space:wrap;
+    margin-inline:10px;
+}
+.my-card>img{
+    display:inline-block;
+    margin:auto;
+    width:110px;
+}
+
+.product-weight{
+    font-size:13px;
+    color:grey;
+}
+
+
+/* --------   Footer  Section ------  */
+footer>p{
+    text-align: center;
+    margin:30px;
+}
